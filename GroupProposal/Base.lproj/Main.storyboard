@@ -117,9 +117,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXw-BX-Gwf">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXw-BX-Gwf">
                                 <rect key="frame" x="16" y="162" width="361" height="657"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">The app will constist of a scrolable list. You will be able to check off items to quickly remove them from the list. Items can also be added thorugh a text input and create button.</string>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="34"/>
                                 <nil key="textColor"/>
@@ -128,6 +127,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vBV-xB-ZbE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="oXw-BX-Gwf" secondAttribute="bottom" constant="33" id="2kS-tk-632"/>
+                            <constraint firstItem="oXw-BX-Gwf" firstAttribute="leading" secondItem="vBV-xB-ZbE" secondAttribute="leading" constant="16" id="afh-o2-amm"/>
+                            <constraint firstItem="oXw-BX-Gwf" firstAttribute="top" secondItem="vBV-xB-ZbE" secondAttribute="top" id="hjp-Lg-vrQ"/>
+                            <constraint firstItem="vBV-xB-ZbE" firstAttribute="trailing" secondItem="oXw-BX-Gwf" secondAttribute="trailing" constant="16" id="j9Q-yL-3Yd"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="KPv-la-edC"/>
                 </viewController>
